@@ -6,5 +6,6 @@ namespace Template.Core.Api.Api.Configuration
     {
         string DisableSwagger { get; }
         Version BuildVersion { get; }
+        DateTime BuildDate { get; }
     }
 }

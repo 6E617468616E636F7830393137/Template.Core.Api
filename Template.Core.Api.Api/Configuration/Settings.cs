@@ -22,6 +22,6 @@ namespace Template.Core.Api.Api.Configuration
         }
         public string DisableSwagger { get; } 
         public Version BuildVersion { get; } = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
-        //public DateTime BuildDate { get; } = Convert.ToDateTime(Properties.Resources.BuildDate);
+        public DateTime BuildDate { get; } = Convert.ToDateTime(Properties.Resources.BuildDate);
     }
 }
